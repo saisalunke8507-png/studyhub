@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StudyHub | Your Study Library</title>
+
+    <meta name="description"
+        content="StudyHub - Your personal college study material library">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>📚 StudyHub</h1>
+        <p>Your Personal Study Library</p>
+    </header>
+
+    <main class="container">
+
+        <section class="welcome">
+            <h2>Welcome to StudyHub</h2>
+            <p>All your college study materials in one place.</p>
+        </section>
+
+        <input
+            type="text"
+            id="search"
+            placeholder="🔍 Search your subjects..."
+            autocomplete="off"
+        >
+
+        <h2 class="section-title">My Study Materials</h2>
+
+        <section class="materials">
+
+            <article class="card">
+                <div class="subject-icon">🐍</div>
+                <h3>Python Programming</h3>
+                <p>Python Notes and Study Material</p>
+                <a href="pdf/python.pdf" target="_blank" rel="noopener">
+                    View PDF ↗
+                </a>
+            </article>
+
+            <article class="card">
+                <div class="subject-icon">📐</div>
+                <h3>ACM</h3>
+                <p>Applied Computational Mathematics</p>
+                <a href="pdf/acm.pdf" target="_blank" rel="noopener">
+                    View PDF ↗
+                </a>
+            </article>
+
+            <article class="card">
+                <div class="subject-icon">🌐</div>
+                <h3>FWT</h3>
+                <p>Fundamentals of Web Technology</p>
+                <a href="pdf/fwt.pdf" target="_blank" rel="noopener">
+                    View PDF ↗
+                </a>
+            </article>
+
+            <article class="card">
+                <div class="subject-icon">💻</div>
+                <h3>COA</h3>
+                <p>Computer Organization and Architecture</p>
+                <a href="pdf/coa.pdf" target="_blank" rel="noopener">
+                    View PDF ↗
+                </a>
+            </article>
+
+            <article class="card">
+                <div class="subject-icon">⚡</div>
+                <h3>BEEE</h3>
+                <p>Basic Electrical and Electronics Engineering</p>
+                <a href="pdf/BEEE/beee.pdf" target="_blank" rel="noopener">
+                    View PDF ↗
+                </a>
+            </article>
+
+        </section>
+
+        <p id="noResults" hidden>
+            No study materials found.
+        </p>
+
+    </main>
+
+    <footer>
+        <p>StudyHub © 2026 | Made for Students ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
